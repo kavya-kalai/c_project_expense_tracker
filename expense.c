@@ -1,12 +1,3 @@
-/* expense_tracker.c
- * A simple CLI Expense Tracker in C with CSV persistence.
- * Features: Add, List, Search, Edit, Delete, Monthly Summary, Category Totals.
- *
- * Storage file: expenses.csv (created automatically with a header).
- *
- * Compile: gcc expense_tracker.c -o expense_tracker
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -471,3 +462,12 @@ int main(void) {
     menu();
     return 0;
 }
+
+/* expense_tracker.c
+ * A simple CLI Expense Tracker in C with CSV persistence.
+ * Features: Add, List, Search, Edit, Delete, Monthly Summary, Category Totals.
+ *
+ * Storage file: expenses.csv (created automatically with a header).
+ *
+ * Compile: gcc expense_tracker.c -o expense_tracker
+ */
